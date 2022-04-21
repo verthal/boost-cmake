@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 2.8.11.2)
 project(boost-cmake)
 
 #find boost directory
-set(boost_root ${CMAKE_CURRENT_SOURCE_DIR}/boost_1_55_0 CACHE PATH "Boost root")
+set(boost_root ${CMAKE_CURRENT_SOURCE_DIR}/boost_1_58_0 CACHE PATH "Boost root")
 
 if(NOT EXISTS ${boost_root})
 message(FATAL_ERROR
